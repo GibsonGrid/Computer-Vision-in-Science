@@ -203,6 +203,7 @@ The repository is designed to support a complete pipeline in which:
 
 ## Results Summary
 
+![unet_output](./chapterImages/unet_output.png)
 A sample experiment using U-Net with a ResNet-18 backbone (input size `256 × 256`) achieved:
 
 | Metric      | Value |
@@ -223,17 +224,29 @@ These numbers correspond to 5 epochs of training on the human subset of the NN H
 If you use this repository in academic work, please cite your thesis or article and optionally this codebase, for example:
 
 ```bibtex
-@software{segmentation_tsi_pipeline,
-  title  = {Eye Segmentation and Time-Series Imaging Pipeline},
-  author = {Mohammed Hammoud},
-  year   = {2025},
-  note   = {Deep learning-based pupil segmentation and TSI for neurological analysis}
+@article{HAMMOUD2025120052,
+    title = {Transfer learning for assessing Parkinson’s disease: Analysis of wrist-worn sensors data and time-series imaging},
+    journal = {Measurement},
+    pages = {120052},
+    year = {2025},
+    issn = {0263-2241},
+    doi = {https://doi.org/10.1016/j.measurement.2025.120052},
+    url = {https://www.sciencedirect.com/science/article/pii/S0263224125034116},
+    author = {Mohammed Hammoud and Aleksei Shcherbak and Ekaterina Bril and Maksim Semenov and Oleg Sergiyenko and Andrey Somov},
+    keywords = {Deep learning, Parkinson’s disease, Time-series imaging, Transfer learning, Wearable sensors}
 }
+
+@article{hammoud2023deep,
+    title={Deep learning framework for neurological diseases diagnosis through near-infrared eye video and time series imaging algorithms},
+    author={Hammoud, Mohammed and Kovalenko, Ekaterina and Somov, Andrey and Bril, Ekaterina and Baldycheva, Anna},
+    journal={Internet of Things},
+    volume={24},
+    pages={100914},
+    year={2023},
+    publisher={Elsevier}
+}
+
 ```
 
 ---
-
-## License
-
-Specify your chosen license here (e.g., MIT, Apache-2.0, GPL).
 
