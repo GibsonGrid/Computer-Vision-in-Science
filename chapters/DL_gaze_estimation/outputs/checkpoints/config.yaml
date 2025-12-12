@@ -1,0 +1,27 @@
+batch_size: 2
+dataloader: dataloader
+dataset: MPIIFaceGaze
+fully_reproducible: true
+img_size: 224
+leaveout_folder: 0
+num_workers: 0
+test:
+  data:
+    image: E:/Practical_CV_chapter/chapters/DL_gaze_estimation/data/preprocessed/MPIIFaceGaze/Image
+    label: E:/Practical_CV_chapter/chapters/DL_gaze_estimation/data/preprocessed/MPIIFaceGaze/Label
+  load:
+    load_path: E:/Practical_CV_chapter/chapters/DL_gaze_estimation/outputs/checkpoints
+    model_name: FullFace_MPIIFaceGaze
+train:
+  data:
+    image: E:/Practical_CV_chapter/chapters/DL_gaze_estimation/data/preprocessed/MPIIFaceGaze/Image
+    label: E:/Practical_CV_chapter/chapters/DL_gaze_estimation/data/preprocessed/MPIIFaceGaze/Label
+  params:
+    epoch: 2
+    lr: 0.001
+  pretrains: None
+  save:
+    each_epoch: 1
+    model_name: FullFace_MPIIFaceGaze
+    save_path: E:/Practical_CV_chapter/chapters/DL_gaze_estimation/outputs/checkpoints
+  val_period: 1

@@ -1,0 +1,27 @@
+dataloader: dataloader
+fully_reproducible: True
+batch_size: 2
+num_workers: 0
+dataset: MPIIFaceGaze
+img_size: 224
+leaveout_folder: 0
+train:
+    params:
+        epoch: 2
+        lr: 0.001
+    save:
+        save_path: "{PROJECT_ROOT}/outputs/checkpoints"
+        model_name: FullFace_MPIIFaceGaze
+        each_epoch: 1
+    data:
+        image: "{PROJECT_ROOT}/data/preprocessed/MPIIFaceGaze/Image"
+        label: "{PROJECT_ROOT}/data/preprocessed/MPIIFaceGaze/Label"
+    pretrains: "None"
+    val_period: 1
+test:
+    load:
+        load_path: "{PROJECT_ROOT}/outputs/checkpoints"
+        model_name: FullFace_MPIIFaceGaze
+    data:
+        image: "{PROJECT_ROOT}/data/preprocessed/MPIIFaceGaze/Image"
+        label: "{PROJECT_ROOT}/data/preprocessed/MPIIFaceGaze/Label"
