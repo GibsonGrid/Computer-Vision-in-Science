@@ -17,4 +17,4 @@ pip install -r requirements.txt
 python main.py --batch_size 4 --epochs 30 --freeze True -cnn False
 ```
 
-### For processing coin images in a slab, the pretrained weight and a jupyter file are included.
+### For processing coin images in a slab, the pretrained weight and a jupyter file are included in Coin_Extraction folder.
