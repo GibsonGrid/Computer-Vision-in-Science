@@ -16,3 +16,5 @@ pip install -r requirements.txt
 ```bash
 python main.py --batch_size 4 --epochs 30 --freeze True -cnn False
 ```
+
+### For processing coin images in a slab, the pretrained weight and a jupyter file are included.
