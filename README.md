@@ -12,7 +12,7 @@ Please navigate to [image_formation](./chapters/image_formation) folder for imag
 Please navigate to [numesmatics](./chapters/numesmatics) folder for coins grading code examples.
 
 ## Parkinson's Disease
-Please navigate to [PD](./chapters/PD) folder for Parkinson's disease code examples.
+Please navigate to [PD](./chapters/PD) folder for CV medical applications (neurological disorders) code examples.
 
 ## Web-camera Eye-tracking
 Please navigate to [DL_gaze_estimation](./chapters/DL_gaze_estimation) folder for web-camera eye-tracking code examples.
