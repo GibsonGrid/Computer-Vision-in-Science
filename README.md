@@ -21,3 +21,22 @@ Please navigate to [DL_gaze_estimation](./chapters/DL_gaze_estimation) folder fo
 ## Summary
 This practical, hands-on guide is ultimately intended to equip and inspire its audience to confidently conceptualize and execute innovative computer vision projects, thereby effectively translating cutting-edge algorithmic theory into tangible scientific discoveries.
 
+
+## Citation
+
+If you use this repository in academic work, please cite:
+
+```bibtex
+@article{bookchapter,
+    title = {Computer Vision in Science: Deep Learning Algorithms and Practical Research Projects},
+    journal = {Springer},
+    author = {Nikita Ligostaev, Melaku Getahun, Mohammed Hammoud, Anton Stepanov, Andrey Somov},
+    keywords = {}
+}
+
+```
+
+---
+
+
+
