@@ -1,5 +1,5 @@
 from data_processing import process_last
-from model2 import modified_classifiers, all_resnets
+from model import modified_classifiers, all_resnets
 from train import epoch_train_valid, test_function
 import time
 import torch
