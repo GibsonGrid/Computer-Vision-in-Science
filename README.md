@@ -8,8 +8,8 @@ Step-by-step instructions on how to deploy the project locally are described in 
 ## Image Formation
 Please navigate to [image_formation](./chapters/image_formation) folder for image formation code examples.
 
-## Numesmatics
-Please navigate to [numesmatics](./chapters/numesmatics) folder for coins grading code examples.
+## Numismatics
+Please navigate to [numismatics](./chapters/numismatics) folder for coins grading code examples.
 
 ## Parkinson's Disease
 Please navigate to [PD](./chapters/PD) folder for CV medical applications (neurological disorders) code examples.
