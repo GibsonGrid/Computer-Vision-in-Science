@@ -14,5 +14,5 @@ pip install -r requirements.txt
 
 ### The main file runs both the training and the testing pipeline one after the other.
 ```bash
-python main.py --batch_size 4 --epochs 30 --type coin1
+python main.py --batch_size 4 --epochs 30 --freeze True -cnn False
 ```
