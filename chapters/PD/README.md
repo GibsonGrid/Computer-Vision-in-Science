@@ -54,9 +54,6 @@ Example command:
 
 ```bash
 python -u train.py     --DATASET_NAME NN_human_mouse_eyes     --MODEL_ARCH unet     --ENCODER_NAME resnet18     --W 256 --H 256     --batch_size 16     --num_epochs 2     --lr 0.001     --CLASSES_NUM 2     --N_SAMPLES 1     --USE_AUGMENTED 0
-
-
-
 ```
 
 Here, `N_SAMPLES = 1` means **use 100% of the available data** for train/validation/test.  
@@ -154,7 +151,7 @@ Single-image arguments (for `--mode single`):
 
 - Loads test images and ground-truth masks using `get_images_masks_paths(root_dir=f"data/{DATASET_NAME}")`.  
 - Applies CLANE preprocessing and resizes to `(W, H)`.  
-- Runs the model and computes the following metrics (per image and averaged): IoU, F1-score, precision, sensitivity (recall), specificity, accuracy.  
+- Runs the model and computes the following metrics (per image and averaged): IoU, F1-score, precision, sensitivity (recall), specificity, and accuracy.  
 - Saves:  
   - Original images, CLANE images, masks, predictions (as PNGs)  
   - Combined panels (`ds_samples1.png`, `model1_results_output_3.png`, `model1_results_output_4.png`)  
@@ -249,4 +246,5 @@ If you use this repository in academic work, please cite your thesis or article 
 ```
 
 ---
+
 
